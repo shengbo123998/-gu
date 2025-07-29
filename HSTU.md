@@ -16,6 +16,8 @@ HLLM是late fusion，速度快，但是交互是在最后才交互。
 M-FALCON: candidate跟序列一起作为输入，然后candidate用对角线的mask。
 
 
+优化计算量： 1. 去掉FFN. 2.
+
 
 #在rank任务上，输入可以做item-action交叉的形式。
 #HSTU会用到user profile特征，但是不知道怎么用
