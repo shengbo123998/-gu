@@ -7,3 +7,6 @@
 最后，计算成本成为实现大规模序列模型的主要瓶颈。GPT-3 在数千块 GPU 上历经 1-2 个月，处理了总计 300B 个 Token。这一规模看似惊人，但与用户行为规模相比则相形见绌。最大的互联网平台每日服务数十亿活跃用户，这些用户每日与数十亿帖子、图片和视频互动。用户序列长度可达 10 的五次方。因此，推荐系统每日需处理的 Token 量，远超语言模型在 1-2 个月内处理的数量级。
 
 #HSTU会用到user profile特征，但是不知道怎么用
+
+HLLM是late fusion，速度快，但是交互是在最后才交互。
+<img width="2146" height="562" alt="image" src="https://github.com/user-attachments/assets/73a116ed-599a-4c9b-82a3-bcae2b69fd9a" />
