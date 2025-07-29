@@ -10,3 +10,5 @@
 
 HLLM是late fusion，速度快，但是交互是在最后才交互。
 <img width="2146" height="562" alt="image" src="https://github.com/user-attachments/assets/73a116ed-599a-4c9b-82a3-bcae2b69fd9a" />
+
+#在rank任务上，输入可以做item-action交叉的形式。
