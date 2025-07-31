@@ -3,7 +3,7 @@
 loss为：即重建损失跟每个码本跟输入的embedding的距离。 <img width="1738" height="124" alt="image" src="https://github.com/user-attachments/assets/00ad3fbf-8b79-4e30-9198-fdf257d74e86" />
 
 <img width="1724" height="846" alt="image" src="https://github.com/user-attachments/assets/1193b29f-b202-40c2-b91e-5a4750bf515a" />
-通过压缩码本空间，可以提高命中率。
+他说通过检索的方式拿到id的，而不是softmax。输出的embedding,直接去码本里面检索。通过压缩码本空间，可以提高命中率。
 、
 、
 
