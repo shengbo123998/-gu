@@ -3,3 +3,7 @@
 loss为：即重建损失跟每个码本跟输入的embedding的距离。 <img width="1738" height="124" alt="image" src="https://github.com/user-attachments/assets/00ad3fbf-8b79-4e30-9198-fdf257d74e86" />
 
 <img width="1724" height="846" alt="image" src="https://github.com/user-attachments/assets/1193b29f-b202-40c2-b91e-5a4750bf515a" />
+、
+、
+<img width="1922" height="950" alt="image" src="https://github.com/user-attachments/assets/041ce820-0bc6-4bf2-bb52-3ead277bcc84" />
+k-means存在这个问题的。只是局部最优。RQVAE通过动态训练embedding，可以改善
